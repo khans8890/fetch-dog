@@ -13,7 +13,7 @@ This app allows users to log in, browse and filter adoptable dogs by breed, favo
 - **Deployed live** via Vercel
 
 ## Live Demo
-[https://fetch-dog-sumaira-khans-projects.vercel.app/] (https://fetch-dog-sumaira-khans-projects.vercel.app/)
+https://fetch-dog-sumaira-khans-projects.vercel.app/
 
 ## Tech Stack
   - **React** with Vite
