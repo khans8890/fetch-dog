@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import { useNavigate} from "react-router-dom";
+const navigate = useNavigate();
 
 function LoginPage() {
     const [name, setName] = useState('');
@@ -21,7 +23,7 @@ function LoginPage() {
         setIsLoading(false);
 
             if (response.ok) {
-                window.location.href = '/search';
+                navigate('/search');
             } else {
                 alert('Login failed. Try again.');
             }
