@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { useNavigate} from "react-router-dom";
-const navigate = useNavigate();
 
 function LoginPage() {
+    const navigate = useNavigate();
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [isLoading, setIsLoading] = useState(false);
