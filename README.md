@@ -1,12 +1,32 @@
-# React + Vite
+# Fetch Dog Matcher 🐶🔎
+A React-based application built for the Fetch take home assessment. 
+This app allows users to log in, browse and filter adoptable dogs by breed, favorite dogs, and generate a match using the provided API.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Features
+- **User Auth** via name and email
+- **Filterable dog search** w/ real-time breed selection
+- **Sortable results** by breed name (ascending/descending)
+- **Pagination** for browsing results in sets of 25
+- **Favorite selection** to shortlist dogs
+- **Match Generator** to find a single best match based on favorited dogs
+- **Clean, responsive UI** styled with Tailwind CSS
+- **Deployed live** via Vercel
 
-Currently, two official plugins are available:
+## Live Demo
+[https://fetch-dog-sumaira-khans-projects.vercel.app/] (https://fetch-dog-sumaira-khans-projects.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Stack
+  - **React** with Vite
+  - **Tailwind CSS** for styling
+  - **React Router** for page navigation
+  - **Vercel** for deployment
+  - **Fetch API** for backend interaction
+ 
+## Getting Started
+To run locally:
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+``bash
+git clone https://github.com/khans8890/fetch-dog.git
+cd fetch-dog
+npm install
+npm run dev
