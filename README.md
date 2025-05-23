@@ -25,7 +25,7 @@ https://fetch-dog-sumaira-khans-projects.vercel.app/
 ## Getting Started
 To run locally:
 
-``bash
+```bash
 git clone https://github.com/khans8890/fetch-dog.git
 cd fetch-dog
 npm install
